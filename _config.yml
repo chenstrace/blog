@@ -93,10 +93,9 @@ theme_config:
    - archive
    - recent_posts
   about_widget_content: >
-    <p>This is a demonstration site for the
-    <a href="https://github.com/cgmartin/hexo-theme-bootstrap-blog">Bootstrap Blog Hexo Theme</a>.
-    If you enjoy it, send me a tweet <a href="https://twitter.com/c_g_martin" target="_blank"
-    rel="external">@c_g_martin</a>.</p>
+    <p>
+    <a href="mailto:chenstrace@163.com">chenstrace@163.com</a>
+    </p>
   excerpt_link: Read More
   fancybox: true
 #  twitter_id: '@c_g_martin'
