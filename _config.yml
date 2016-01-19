@@ -89,7 +89,7 @@ theme_config:
    - about
    - category
    - tag
-   - tagcloud
+#   - tagcloud
    - archive
    - recent_posts
   about_widget_content: >
@@ -104,7 +104,6 @@ theme_config:
 # widget behavior
 archive_type: 'monthly'
 show_count: true
-
 # Miscellaneous
 favicon:
 google_plus:
