@@ -1,0 +1,123 @@
+# Hexo Configuration
+## Docs: https://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+# Site
+title: 陈积利的博客
+subtitle: Half Man Half Amazing
+description: 
+author: chenstrace
+language: zh-CN
+timezone:
+email: chenstrace@163.com #联系邮箱
+
+# URL
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+url: http://chenjili.com
+root: /
+permalink: :year/:month/:day/:title/
+permalink_defaults:
+
+# Directory
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
+
+# Writing
+new_post_name: :title.md # File name of new posts
+default_layout: post
+titlecase: false # Transform title into titlecase
+external_link: true # Open external links in new tab
+filename_case: 1 # 0:as-is, 1:lowercase, 2:uppercase
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+marked:
+  gfm: true
+  pedantic: false
+  sanitize: false
+  tables: true
+  breaks: false
+  smartLists: true
+  smartypants: false
+highlight:
+  enable: true
+  line_number: false
+  auto_detect: false
+  tab_replace:
+
+# Category & Tag
+default_category: uncategorized
+category_map:
+tag_map:
+
+# Date / Time format
+## Hexo uses Moment.js to parse and display date
+## You can customize the date format as defined in
+## http://momentjs.com/docs/#/displaying/format/
+date_format: "MMMM Do, YYYY"
+time_format: HH:mm:ss
+
+# Pagination
+## Set per_page to 0 to disable pagination
+per_page: 5
+pagination_dir: page
+archive_generator:
+  per_page: 0
+category_generator:
+  per_page: 0
+tag_generator:
+  per_page: 0
+
+# Extensions
+## Plugins: https://hexo.io/plugins/
+## Themes: https://hexo.io/themes/
+theme: bootstrap-blog
+theme_config:
+  # Header
+  menu:
+    Home: index.html
+    Archives: archives/
+    Github: https://github.com/chenstrace/
+  widgets:
+   - about
+   - category
+   - tag
+   - tagcloud
+   - archive
+   - recent_posts
+  about_widget_content: >
+    <p>This is a demonstration site for the
+    <a href="https://github.com/cgmartin/hexo-theme-bootstrap-blog">Bootstrap Blog Hexo Theme</a>.
+    If you enjoy it, send me a tweet <a href="https://twitter.com/c_g_martin" target="_blank"
+    rel="external">@c_g_martin</a>.</p>
+  excerpt_link: Read More
+  fancybox: true
+#  twitter_id: '@c_g_martin'
+#  google_analytics: UA-71943468-1
+
+# widget behavior
+archive_type: 'monthly'
+show_count: true
+
+# Miscellaneous
+favicon:
+google_plus:
+fb_admins:
+fb_app_id:
+
+# Deployment
+## Docs: https://hexo.io/docs/deployment.html
+deploy:
+  type: git
+  repo: git@github.com:chenstrace/chenstrace.github.io.git
+  branch: master
+
+html_minifier:
+  exclude:
