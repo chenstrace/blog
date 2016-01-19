@@ -77,14 +77,27 @@ tag_generator:
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
+Plugins:
+- hexo-generator-sitemap
+- hexo-generator-feed
+- hexo-generator-baidu-sitemap
+
+#sitemap
+sitemap:
+  path: /sitemap.xml
+
+baidusitemap:
+  path: baidusitemap.xml
+
 ## Themes: https://hexo.io/themes/
 theme: bootstrap-blog
 theme_config:
   # Header
   menu:
-    Home: index.html
+    Home: /
     Archives: archives/
     Github: https://github.com/chenstrace/
+#    Sitemap: /sitemap.xml 
   widgets:
    - about
    - category
@@ -106,9 +119,9 @@ archive_type: 'monthly'
 show_count: true
 # Miscellaneous
 favicon:
-google_plus:
-fb_admins:
-fb_app_id:
+#google_plus:
+#fb_admins:
+#fb_app_id:
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

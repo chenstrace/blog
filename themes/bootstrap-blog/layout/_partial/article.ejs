@@ -29,10 +29,7 @@
     <% } %>
 
     <footer class="article-footer">
-      <a data-url="<%- post.permalink %>" data-id="<%= post._id %>" class="article-share-link">
-        <i class="fa fa-share"></i> Share
-      </a>
-      <% if (post.comments && config.disqus_shortname){ %>
+     <% if (post.comments && config.disqus_shortname){ %>
         <a href="<%- post.permalink %>#disqus_thread" class="article-comment-link">
           <i class="fa fa-comment"></i> Comments
         </a>
@@ -52,3 +49,11 @@
   </div>
 </section>
 <% } %>
+
+
+      <% if (index == false){ %>
+          <% if (theme.baidu_share.enable) { %>
+                <%- partial('post/baidu_share') %>
+        <% } %>
+      <% } %>
+      <div class="clearfix"></div>
