@@ -87,7 +87,7 @@ sitemap:
   path: /sitemap.xml
 
 baidusitemap:
-  path: baidusitemap.xml
+  path: /baidusitemap.xml
 
 ## Themes: https://hexo.io/themes/
 theme: bootstrap-blog
