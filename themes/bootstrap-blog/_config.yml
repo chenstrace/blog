@@ -1,18 +1,9 @@
 # Header
 navbar_brand: false
 rss: /atom.xml
-
 # Content
 excerpt_link: Read More
 fancybox: false
-
-# Sidebar
-widgets:
-- about         # See also: `about_content`
-- category
-- tag
-- archive
-- recent_posts
 
 # widget behavior
 archive_type: 'monthly'
@@ -27,7 +18,6 @@ favicon:
 #fb_app_id:
 
 duoshuo_shortname: chenstrace
-baidu_tongji: true
 baidu_share:
 	enable: true
 
