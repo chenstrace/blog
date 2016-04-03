@@ -2,8 +2,7 @@
 title: {{ title }}
 date: {{ date }}
 tags:
-- Hexo
-- Theme
+- 熊猫TV 
 categories:
 - Android Dev 
 ---
