@@ -129,9 +129,6 @@ deploy:
 - type: git
   repo: git@github.com:chenstrace/chenstrace.github.io.git
   branch: master
-- type: git
-  repo: git@gitcafe.com:chenstrace/chenstrace.git
-  branch: gitcafe-pages
 
 html_minifier:
   exclude:

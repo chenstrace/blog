@@ -42,7 +42,8 @@ date: 2016-01-26 14:12:36
 - ack
 - xxd
 - seq
- 
+- hexo s -g和hexo d -g (此命令可以结合hexo-browsersync)
+
 
 ## **探索软件**
 - upupw
@@ -59,13 +60,16 @@ date: 2016-01-26 14:12:36
 
 ## **Windows**
 - MarkdownPad 2
-- FontCreator
 - ConsoleZ
-- 小书匠
 - UltraMon 多屏软件
 - XX-Net
 - Zeal
-- Cygwin 
+- VMware
+- Cygwin
+- AirDroid
+- AirPlayer
+- OBS
+- FontCreator
 
 ## **Mac**
 - VMware Fusion
@@ -78,3 +82,5 @@ date: 2016-01-26 14:12:36
 - rdc 远程登录
 - Typora 
 - Alfred 
+- Spectacle
+- CatchMouse
