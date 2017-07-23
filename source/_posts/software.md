@@ -59,8 +59,7 @@ date: 2016-01-26 14:12:36
 - vanilla 一个基于Openresty实现的高性能Web应用开发框架
 
 ## **Windows**
-- MarkdownPad 2
-- ConsoleZ
+- Typora
 - UltraMon 多屏软件
 - XX-Net
 - Zeal
@@ -70,6 +69,7 @@ date: 2016-01-26 14:12:36
 - AirPlayer
 - OBS
 - FontCreator
+- The Regex Coach
 
 ## **Mac**
 - VMware Fusion
